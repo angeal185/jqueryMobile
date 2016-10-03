@@ -1,0 +1,49 @@
+<div data-role="page" id="p-msgs"  tabindex="0" class="ui-page ui-page-active ui-page-theme-b" style="margin-bottom: 3em;">
+<div class="ui-content">
+<ul class="ui-bar ui-bar-b  breadcrumb">
+	<li><i class="fa fa-home"></i><a href="#indx"> Home</a></li>
+	<li class="active"> Messages</li>
+</ul>	
+<div class="ui-body ui-body-b">
+	
+		<div class="main-header">
+			<h2></h2><em id="msg-l"></em><em id="msg-n"></em>
+		</div>
+		<div class="main-content">
+			<!-- INBOX -->
+			<div class="inbox">						
+				<div class="top">
+				</div>
+				<!-- /top -->
+				<div class="bottom">
+					<div class="row">
+						<!-- inbox left menu -->
+						<div class="ui-bar  inbox-left-menu active">
+							<h3 id="msg-mnu" class="sr-only">Inbox Menu</h3>
+							<ul class="list-unstyled left-menu">
+								<li class="active"><a id="n-msg" href="javascript:void(0)" class="ui-link"><i class="fa fa-envelope-o"></i> New Message </a></li>
+								<li class="active"><a id="inbx-p01" href="javascript:void(0)" class="ui-link"><i class="fa fa-inbox"></i> Inbox <span class="badge pull-right">32</span></a></li>
+								<li><a id="drfts-p01" href="javascript:void(0)" class="ui-link"><i class="fa fa-edit"></i> Drafts <span class="badge pull-right">10</span></a></li>
+								<li><a id="snt-p01" href="javascript:void(0)" class="ui-link"><i class="fa fa-external-link"></i> Sent <span class="badge pull-right">10</span></a></li>
+								<li><a id="spm-p01" href="javascript:void(0)" class="ui-link"><i class="fa fa-warning"></i> Spam <span class="badge pull-right">10</span></a></li>
+								<li><a id="trsh-p01" href="javascript:void(0)" class="ui-link"><i class="fa fa-trash-o"></i> Trash <span class="badge pull-right">10</span></a></li>
+							</ul>
+						</div>
+							<div id="msgs-01" class="ui-bar ui-bar-b"></div>
+						<!-- end right main content, the messages -->
+					</div>
+				</div>
+			</div>
+			<!-- END INBOX -->
+		</div>
+	
+</div>	
+</div>
+<script>
+$('#msgs-01').load('jqueryMobile/assets/partials/msgs-01.html'),
+$.getScript("jqueryMobile/js/custom-routing.js"),
+$('.main-header h2').html('Inbox'),
+$('#msg-l').html('unread messages:'),
+$('#msg-n').html('32 '); //attach number value to server
+</script>
+</div>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html class="ui-mobile">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <base href=".">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+    <title>title</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.custom.css" ajaxrulesbycssused="loaded">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/custom.css">
+    <link rel="shortcut icon" href="#">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.mobile-1.4.5.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body class="ui-mobile-viewport ui-overlay-b">	
+<!--page-->
+<div data-role="page" id="indx" data-url="indx" tabindex="0" class="ui-page ui-page-footer-fixed ui-page-active ui-page-theme-b" style="padding-bottom: 35px;">
+<div class="ui-panel-wrapper">
+	<!--start main-->
+	<div id="pgc" class="ui-content" role="main"> 	
+<ul class="ui-bar ui-bar-b  breadcrumb">
+	<li><i class="fa fa-home"></i><a href="index.html#"> Home</a></li>
+	<li class="active"> Dashboard</li>
+</ul>		
+<h3 class="ui-bar ui-bar-b ui-corner-all">Heading</h3>
+      <div class="ui-body ui-body-b ui-corner-all">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan blandit fermentum. Pellentesque cursus mauris purus, auctor commodo mi ullamcorper nec. Donec semper mattis eros, nec condimentum ante sollicitudin quis. Etiam orci sem, porttitor ut tellus nec, blandit posuere urna. Proin a arcu non lacus pretium faucibus. Aliquam sed est porttitor, ullamcorper urna nec, vehicula lorem. Cras porttitor est lorem, non venenatis diam convallis congue.</p>
+</div>
+</div>
+</div>
+</div>
+	
+	 <!--header-->
+<div data-role="header" id="hdr" data-position="fixed" role="banner" class="ui-page-theme-b ui-header ui-bar-inherit">
+	<h1 class="ui-title" role="heading" aria-level="1">Title</h1> <a href="#panel-overlay-a" class="ui-btn-left ui-btn ui-icon-grid ui-btn-icon-left ui-shadow ui-corner-all" data-role="button" role="button">Menu</a> <a href="#panel-overlay-b" class="ui-btn-right ui-btn ui-icon-gear ui-btn-icon-left ui-shadow ui-corner-all" data-role="button" role="button">Settings</a> 
+</div>
+
+
+<!--panel-left-->
+<div data-role="panel" id="panel-overlay-a" data-display="overlay" data-position-fixed="true" class="ui-page-theme-b ui-panel ui-panel-display-overlay ui-panel-closed ui-body-inherit ui-panel-animate" style="opacity:.95">
+	<div class="ui-panel-inner">
+		<div data-role="header" data-theme="b">
+		<ul class="ui-grid-c">
+			<li class="sdb-l-t ui-block-a"><a class="fa fa-codepen ui-link ui-btn"></a></li>
+			<li class="sdb-l-t ui-block-b"><a class="fa fa-jsfiddle ui-link ui-btn"></a></li>
+			<li class="sdb-l-t ui-block-c"><a class="fa fa-github ui-link ui-btn"></a></li>
+			<li class="sdb-l-t ui-block-d"><a class="fa fa-gitlab ui-link ui-btn"></a></li>
+			</ul>
+		</div>
+			<div role="heading" class="ui-dialog-contain" style="height:3.5em">
+				
+				<h2><img class="img-circle img-thumbnail " style="max-height:3em" src="images/avatar2.png"></img> Title<legend></legend></h2>
+			
+			</div>
+		</div>
+		
+		<br>
+		<ul data-role="listview" class="sdbr ui-listview">
+			<li class="ui-first-child"><a href="#indx" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Home</a></li>
+			<li><a href="jqueryMobile/assets/pages/about.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">About</a></li>
+			<li><a href="jqueryMobile/assets/pages/blog.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Blog</a></li>
+			<li><a href="jqueryMobile/assets/pages/comment.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Comment</a></li>
+			<li><a href="jqueryMobile/assets/pages/comments.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Comments</a></li>
+			<li class="ui-last-child"><a href="jqueryMobile/assets/pages/gallery.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Gallery</a></li>
+		</ul>
+		<br>
+		<br>
+		<button data-rel="close" class="ui-btn ui-shadow ui-corner-all" style="width:90%; margin-left:5%;">Back</button>
+	</div>
+</div>
+<!--panel-right-->
+<div data-role="panel" id="panel-overlay-b" data-display="overlay" data-position="right" data-position-fixed="true" class="ui-page-theme-b ui-panel ui-panel-position-right ui-panel-display-overlay ui-panel-closed ui-body-inherit ui-panel-animate" style="opacity:.95">
+	<div class="ui-panel-inner">
+	 
+		<p class="sdb-r-t"> Profile</p><li class="ui-block-a"><a href="jqueryMobile/assets/pages/profile.html" class="fa fa-2x fa-user ui-link ui-btn" style="width:1.1em"></a></li>
+		<p class="sdb-r-t"> Messages</p><li class="ui-block-a"><a href="jqueryMobile/assets/pages/messages.html" class="fa fa-2x fa-envelope-o ui-link ui-btn" style="width:1.1em"></a></li>
+		<p class="sdb-r-t"> search</p><li class="ui-block-a"><a href="jqueryMobile/assets/pages/search.html" class="fa fa-2x fa-search ui-link ui-btn" style="width:1.1em"></a></li>
+		<p class="sdb-r-t"> Back</p><li class="ui-block-a" ><a data-rel="close" class="fa fa-2x fa-chevron-left ui-link ui-btn" style="width:1.1em"></a></li>
+		<br>
+		<br>
+	</div>
+</div>
+<!--footer-->
+<div id="ftr" data-role="footer" data-position="fixed" role="contentinfo" class="ui-footer ui-page-theme-b ui-bar-inherit ui-footer-fixed slideup">
+	<nav data-role="navbar" class="ui-navbar" role="navigation">
+		<ul class="ui-grid-b">
+			<li class="ui-block-a"><a href="#indx" data-icon="home" class="ui-link ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+			<li class="ui-block-b"><a href="jqueryMobile/assets/pages/contact.html" data-icon="mail" class="ui-link ui-btn ui-icon-mail ui-btn-icon-top">Contact</a></li>
+			<li class="ui-block-c"><a href="jqueryMobile/assets/pages/login.html" data-icon="lock" class="ui-link ui-btn ui-icon-lock ui-btn-icon-top">Login</a></li>
+		</ul>
+	</nav>
+	<h4 style="display:none;" class="ui-title" role="heading" aria-level="1">Footer</h4> 
+</div>
+    <!--last-->
+    <div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon-loading"></span>
+        <h1>loading</h1></div>
+    <div class="ui-panel-dismiss"></div>
+    <div class="ui-panel-dismiss"></div>
+    <div class="ui-panel-dismiss"></div>
+</body>
+</html>

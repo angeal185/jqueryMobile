@@ -1,0 +1,369 @@
+
+
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0px;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.list-unstyled {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+table {
+    background-color: transparent;
+}
+
+.table-condensed > tbody > tr > td {
+    padding: 5px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px;
+}
+
+.row::after,
+.row::before {
+    display: table;
+    content: " ";
+}
+
+.row::after {
+    clear: both;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.main-header {
+    margin-bottom: 50px;
+}
+
+.main-header h2 {
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 1px solid #ccc;
+    margin: 0px 10px 0px 0px;
+    padding-right: 10px;
+}
+
+.main-header em {
+    color: #bbb;
+}
+
+.main-content {
+    padding-bottom: 30px;
+}
+
+.fancy-checkbox {
+    display: block;
+}
+
+.badge {
+    font-weight: 400;
+}
+
+.inbox .bottom {
+    border-top: 1px solid #ddd;
+}
+
+.inbox .bottom .row > .inbox-left-menu {
+    padding-right: 0px;
+    padding-top: 14px;
+}
+
+.inbox .bottom ul.left-menu {
+    margin-bottom: 40px;
+}
+
+.inbox .bottom ul.left-menu li a {
+    display: block;
+    color: #888;
+    padding: 5px 0px;
+    font-size: 0.9em;
+}
+
+.inbox .bottom ul.left-menu li a:hover {
+    color: #555;
+    text-decoration: none;
+}
+
+.inbox .bottom ul.left-menu li i {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.inbox .bottom ul.left-menu li .badge {
+    margin-right: 1em;
+    background-color: #a2a2a2;
+    color: #f9f9f9;
+}
+
+.inbox .labels h3 {
+    font-size: 1em;
+}
+
+.inbox table.message-table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.inbox table.message-table tr {
+    cursor: pointer;
+    border-bottom: 1px solid #ececec;
+}
+
+.inbox table.message-table tr.unread {
+    font-weight: 700;
+    background-color: #fcfcfc;
+}
+
+.inbox table.message-table tr td {
+    color: #555;
+    font-size: 0.9em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.inbox table.message-table tr td:hover {
+    text-decoration: none;
+}
+
+.inbox table.message-table tr td .fancy-checkbox {
+    background: transparent;
+    border-color: transparent;
+    margin: 5px 0px;
+}
+
+.inbox table.message-table tr td .from {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.inbox table.message-table tr td .preview {
+    font-weight: normal;
+    color: #aaa;
+}
+
+.inbox table.message-table tr td .timestamp {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+
+.pager-wrapper {
+    margin-top: 1em;
+    padding-bottom: 1.2em;
+}
+
+ul.pager {
+    display: inline-block;
+    margin: 0px;
+}
+
+.pager li > a:hover {
+    text-decoration: none;
+}
+
+.pager {
+    padding-left: 0px;
+    margin: 20px 0px;
+    text-align: center;
+    list-style: none;
+}
+
+.pager li {
+    display: inline;
+}
+
+.pager li > a {
+    display: inline-block;
+    padding: 5px 14px;
+}
+
+.data-row {
+    margin-bottom: 0px;
+}
+
+.data-row .data-name,
+.data-row .data-value {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.data-row .data-name {
+    width: 12em;
+    background-color: #3d3434;
+    color: #b9b9b9;
+    font-size: 0.9em;
+    vertical-align: top;
+}
+
+.data-row .data-value {
+    padding-left: 10px;
+}
+
+.main-content {
+    padding-bottom: 30px;
+}
+
+.tab-content.profile-page {
+    padding: 35px 15px;
+}
+
+.profile .user-info-left,
+.profile .user-info-right {
+    padding: 10px 0px;
+}
+
+.profile .user-info-left {
+    text-align: center;
+}
+
+.profile .user-info-left img {
+    border: 3px solid #fff;
+}
+
+.profile .user-info-left h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.profile .user-info-left h2 i {
+    font-size: 0.6em;
+    position: relative;
+    top: -8px;
+}
+
+.profile .user-info-right {
+    border-left: 1px solid #3d3434;
+    padding-left: 30px;
+}
+
+.profile .user-info-right > div {
+    margin-bottom: 60px;
+}
+
+.thumbnail {
+    padding: 1em;
+    max-width: 80%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.pad-1 {
+    padding: 1em;
+}
+
+.pad-2 {
+    padding: 2em;
+}
+
+.pad-3 {
+    padding: 3em;
+}
+
+.blog-post-item {
+    display: block;
+    margin-bottom: 80px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.blog-post-item h2 {
+    letter-spacing: 0px;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+ul.blog-post-info {
+    display: block;
+}
+
+ul.blog-post-info li > a {
+    color: #888;
+}
+
+ul.blog-post-info li i {
+    color: #888;
+    margin-right: 5px;
+}
+
+ul.blog-post-info li a::after {
+    content: ", ";
+}
+
+ul.blog-post-info li a:last-child::after {
+    content: "";
+}
+
+.list-inline {
+    padding-left: 0px;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.blu {
+    color: #2ad;
+}
