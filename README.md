@@ -1,2 +1,2 @@
 # jqueryMobile
-first commit
+Mobile template
