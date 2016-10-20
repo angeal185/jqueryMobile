@@ -16,5 +16,3 @@
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
 
-client/stylesheets/* linguist-vendored
-*.rb linguist-language=JavaScript
